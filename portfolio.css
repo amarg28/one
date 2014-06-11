@@ -42,10 +42,11 @@ body {
   margin: 2.3% 0 0 0;
 }
 
-.main_img {
-  width: 50%;
-  position: relative;
-  margin: 5% 15% 0 15%;
+.hover {
+    -webkit-transform: scale(1.6); 
+    -moz-transform: scale(1.6);
+    -o-transform: scale(1.6);
+    transform: scale(1.6);
 }
 
 #portraits {
