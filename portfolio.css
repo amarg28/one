@@ -76,3 +76,13 @@ body {
 .hideBar {
   display: none;
 }
+
+#squares {
+  overflow: hidden;
+  width: 20%;
+}
+
+#pages {
+  width: 20%;
+  positon: relative;
+}
