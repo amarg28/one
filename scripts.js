@@ -20,3 +20,13 @@ $(document).ready(function() {
 		}
 	});
 });
+
+
+//hover
+$(document).ready(function() {
+	$('#pages').hover(function() {
+		$("#pages").addClass('zoom');
+	}, function(){
+		$("#pages").removeClass('zoom');
+	});
+});
