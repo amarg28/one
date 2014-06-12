@@ -21,12 +21,21 @@ $(document).ready(function() {
 	});
 });
 
-
 //hover
-$(document).ready(function() {
-	$('#pages').hover(function() {
-		$("#pages").addClass('zoom');
-	}, function(){
-		$("#pages").removeClass('zoom');
-	});
+$(document).ready(function(){
+    $('#pages').hover(function() {
+        $("#pages").addClass('zoom');
+    
+    }, function() {
+        $("#pages").removeClass('zoom');
+    });
+});
+
+$(document).ready(function(){
+    $('#pages2').hover(function() {
+        $("#pages2").addClass('zoom');
+    
+    }, function() {
+        $("#pages2").removeClass('zoom');
+    });
 });
