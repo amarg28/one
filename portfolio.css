@@ -42,11 +42,52 @@ body {
   margin: 2.3% 0 0 0;
 }
 
-.hover {
-    -webkit-transform: scale(1.6); 
-    -moz-transform: scale(1.6);
-    -o-transform: scale(1.6);
-    transform: scale(1.6);
+
+#frontPageSquares {
+  width: 800px;
+  position: absolute;
+  margin: 15% 50% 20% 10%;
+}
+
+#squares {
+  overflow: hidden;
+  width: 30%;
+  float: left;
+  padding: 1.5px;
+  position: relative;
+  z-index: 0;
+}
+
+#pages, #pages2 {
+  -webkit-transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
+  -o-transition: all .4s ease-in-out;
+  -ms-transition: all .4s ease-in-out;
+}
+
+#pages, #pages2 {
+  width: 100%;
+  positon: relative;
+}
+
+#text {
+  position: absolute;
+  z-index: 100;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 80%;
+  font-size: 200%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+}
+
+.zoom {
+    -webkit-transform: scale(1.4);
+    -moz-transform: scale(1.4);
+    -o-transform: scale(1.4);
+    transform: scale(1.4);
 }
 
 #portraits {
@@ -66,7 +107,7 @@ body {
   padding: 1.5px;
 }
 
-#nature {
+#places {
   background-color: black;
   color: white;
   height: 800px;
@@ -75,14 +116,4 @@ body {
 
 .hideBar {
   display: none;
-}
-
-#squares {
-  overflow: hidden;
-  width: 20%;
-}
-
-#pages {
-  width: 20%;
-  positon: relative;
 }
