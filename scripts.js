@@ -8,6 +8,7 @@ $(window).load(function() {
 });
 
 
+//navbar fade
 $(document).ready(function() {
 	var nav = $('.hideBar');
 	$(window).scroll(function() {
@@ -21,7 +22,7 @@ $(document).ready(function() {
 	});
 });
 
-//hover
+//hover people
 $(document).ready(function(){
     $('#pages').hover(function() {
         $("#pages").addClass('zoom');
@@ -32,10 +33,29 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+    $('#pages').hover(function() {
+        $("#text").addClass('zoomText');
+    
+    }, function() {
+        $("#text").removeClass('zoomText');
+    });
+});
+
+//hover places
+$(document).ready(function(){
     $('#pages2').hover(function() {
         $("#pages2").addClass('zoom');
     
     }, function() {
         $("#pages2").removeClass('zoom');
+    });
+});
+
+$(document).ready(function(){
+    $('#pages2').hover(function() {
+        $("#text2").addClass('zoomText');
+    
+    }, function() {
+        $("#text2").removeClass('zoomText');
     });
 });
